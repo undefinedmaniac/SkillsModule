@@ -1,0 +1,2 @@
+Question: What is the best programming language?
+It's Python. Why Python? Beacause the synatx is amazing. That, and generators
