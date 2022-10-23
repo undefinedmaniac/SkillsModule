@@ -4,13 +4,13 @@ count = 0
 count_correct = 0
 
 while True:
-    multiple = random.randint(1, 16)
-    answer = input("What is 16 * {}: ".format(multiple))
+    multiple = random.randint(1, 32)
+    answer = input("What is 32 * {}: ".format(multiple))
     
     if answer == "exit":
         break
 
-    correct_answer = multiple * 16
+    correct_answer = multiple * 32
     
     try:
         is_answer_correct = (int(answer) == correct_answer)
