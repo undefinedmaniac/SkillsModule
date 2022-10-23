@@ -1,0 +1,6 @@
+Course List:
+CSE 445 - Distrubited software development
+CSE 424 - System Capstone Project II
+CSE 420/520 - Computer Architecture II
+CSE 470 - Computer Graphics
+CSE 475 - Machine learning
