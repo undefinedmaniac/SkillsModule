@@ -1,0 +1,3 @@
+[submodule "SimpleFileTransfer"]
+	path = SimpleFileTransfer
+	url = https://github.com/undefinedmaniac/SimpleFileTransfer.git
