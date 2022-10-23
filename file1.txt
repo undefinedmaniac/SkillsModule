@@ -1,6 +1,28 @@
-Course List:
-CSE 445 - Distrubited software development
-CSE 424 - System Capstone Project II
-CSE 420/520 - Computer Architecture II
-CSE 470 - Computer Graphics
-CSE 475 - Machine learning
+import random
+
+count = 0
+count_correct = 0
+
+while True:
+    multiple = random.randint(1, 16)
+    answer = input("What is 16 * {}: ".format(multiple))
+    
+    if answer == "exit":
+        break
+
+    correct_answer = multiple * 16
+    
+    try:
+        is_answer_correct = (int(answer) == correct_answer)
+    except ValueError:
+        is_answer_correct = False
+    
+    if is_answer_correct:
+        print("You got it right!")
+        count_correct += 1
+    else:
+        print("Nope. It's actually {}".format(correct_answer))
+
+    count += 1
+
+print("Your score is {}/{}".format(count_correct, count))
