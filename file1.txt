@@ -25,4 +25,4 @@ while True:
 
     count += 1
 
-print("Your score is {}/{}".format(count_correct, count))
+print("Your score is {}/{}. Thanks for playing!".format(count_correct, count))
